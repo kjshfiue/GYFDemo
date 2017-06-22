@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/gray_f4"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/title_layout"
+        style="@style/title_layout">
+
+        <ImageView style="@style/title_btn_back" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/title_text"
+            android:text="我的日记" />
+
+        <TextView
+            android:id="@+id/btn_delete"
+            style="@style/title_btn_right"
+            android:text="删除" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_time"
+            style="@style/text_style2.h2"
+            android:text="" />
+
+        <Spinner
+            android:id="@+id/type_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/bt_background_stroke_blue"
+            android:entries="@array/typeArray"
+            android:gravity="center"
+            android:paddingBottom="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_note"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_margin="10dp"
+        android:background="@android:color/white"
+        android:gravity="top"
+        android:hint="编辑日记..."
+        android:lineSpacingExtra="6dp"
+        android:maxLength="300"
+        android:padding="10dp"
+        android:textColor="@color/textColor1"
+        android:textColorHint="@color/colorHint"
+        android:textSize="14dp" />
+
+</LinearLayout>

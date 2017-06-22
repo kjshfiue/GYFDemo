@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">GYFDemo</string>
+
+
+    <string name="action_settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="about_desc">Hello World</string>
+    <string name="edit_text">退出</string>
+    <string name="file">文件</string>
+    <string name="about">关于我们</string>
+    <string name="exit">退出</string>
+    <string name="music">音乐</string>
+    <string name="map">菜单</string>
+    <string name="start">开始</string>
+    <string name="stop">停止</string>
+
+</resources>

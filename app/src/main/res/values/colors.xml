@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffd138</color>
+    <color name="colorPrimaryDark">#d1a30d</color>
+    <color name="colorAccent">#47a2f7</color>
+
+    <color name="themeColor">#ffd138</color>
+    <color name="themeColorDark">#ffd138</color>
+
+
+    <color name="color_title_back">@color/themeColor</color>
+    <color name="color_title_text">#404040</color>
+    <color name="color_title_text_right">#ffd138</color>
+
+    <color name="gray">#ddd</color>
+    <color name="red">#F00</color>
+    <color name="color_tab_selected">#ffd138</color>
+    <color name="color_tab_normal">#B8B8B8</color>
+    <color name="color_fff6d8">#fff6d8</color>
+
+
+    <color name="colorHint">#A2A2A2</color>
+    <color name="textColor1">#404040</color>
+    <color name="textColor2">#666666</color>
+    <color name="textColor3">#9b9b9b</color>
+    <color name="textColor4">#C8C8C8</color>
+    <color name="textColor5">#D2D2D2</color>
+    <color name="textColor6">#5cd6d4</color>
+    <color name="textColor0">#ffd138</color>
+
+    <color name="gray_ea">#eaeaea</color>
+    <color name="gray_40">#404040</color>
+    <color name="gray_a8">#a8a8a8</color>
+    <color name="gray_f7f9fa">#f7f9fa</color>
+    <color name="gray_f5">#f5f5f5</color>
+    <color name="gray_f4">#f4f4f4</color>
+    <color name="gray_f6f5f3">#f6f5f3</color>
+    <color name="gray_cecece">#cecece</color>
+    <color name="gray_6f">#6f6f6f</color>
+    <color name="gray_ef">#efefef</color>
+    <color name="color_bg_filter_list_left">#E4E4E4</color>
+    <color name="color_bg_filter_list_right">#FFFFFF</color>
+
+    <color name="filter_tab_bg">#ffb2cb</color>
+    <color name="translucence_half">#88000000</color>
+    <color name="dialog_transparent_bg">#26000000</color>
+</resources>
